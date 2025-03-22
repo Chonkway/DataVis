@@ -23,6 +23,7 @@ def country_content (cname: str):
         data_set_link.click()
 
     except NoSuchElementException:
+        print(cname + "Not Found!")
         pass
 
 
